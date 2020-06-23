@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 100px 0 100px 0;
+    background-color: white;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 82px;
+    margin-bottom: 10px;
+    color: #f54254;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+  }
+    
+
+  .top-wrapper p {
+    margin-bottom: 3px;
+    font-size: 35px;
+    color: #4a4c57;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+    
+  .belanja {
+    background-color: #1938e6;
+  }
+  
+  
+  .btn {
+    width:30%;
+    padding: 16px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 6px;
+    text-align: center;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+    line-height: 65px;
+    color: #f54254;
+    padding: 0 25px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .header-left {
+      float: left;
+  }
+  
+  .header-left span{
+    background-color: #f54254;
+    color:white;
+    padding: 5px 13px;
+  }
+
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #f54254;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size: 17px;   
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(199, 199, 199, 0.3);
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+  }
+  
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+    color: #4a4c57;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    color: #4a4c57;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+  }
+  /*
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }*/
+  
+  .heading h3 {
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Asap', sans-serif;
+    color: #4a4c57;
+  }
+
+  .heading h3 span{
+    font-weight: 700;
+  }
+
+
+  .makanan {
+    background-color: #fcba03;
+  }
+  .minuman {
+    background-color: #fc0303;
+  }
+  .sayuran {
+    background-color: #fcba03;
+  }
+  .buah {
+    background-color: #fc0303;
+  }
+
+  
+  .btm {
+    width: 80%;
+    display: inline-block;
+    margin-top: 45px;
+    padding: 16px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    opacity: 0.8;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .btm:hover {
+    opacity: 1;
+  }
+  .bts {
+    width:20%;
+    padding: 16px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 6px;
+    text-align: center;
+
+  }
+
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color: rgb(29, 23, 23);
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .logo-footer {
+    width: 124px;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+  }
+  
+  .logo-footer span{
+    background-color: #fa1c33;
+    color:white;
+    padding: 5px 13px;
+    
+  }
+
+  .footer-right{
+    text-align: center;
+  }
+  .footer-right a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Asap', sans-serif;
+    margin-left: 25px;
+  }
+
+  .footer-left{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .list{
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  .design{
+     background-color:#fa1c33;
+     height: 25px;
+  }
+  .design p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Asap', sans-serif;
+    color:white;
+    text-align: center;
+    line-height: 25px;
+  }
